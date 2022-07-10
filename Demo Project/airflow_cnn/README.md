@@ -19,7 +19,7 @@ Then, the <b>train.py</b> call the keras data image data generator to transform 
 
 One can use the UI of the airflow to monitor the job status at each stage, the graph below shows that 2 tasks are run successfully. <br>
 
-![image]https://github.com/chrispun0518/personal_demo/blob/master/Demo%20Project/airflow_cnn/airflow_task.png
+![image](https://github.com/chrispun0518/personal_demo/blob/master/Demo%20Project/airflow_cnn/airflow_task.png)
 
 The script also output different information log to help debug and productionalize the model training workflow, such as <i>number of classification samples</i> and <i>model check point instances</i>
 
