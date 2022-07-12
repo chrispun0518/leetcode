@@ -8,7 +8,7 @@ As the purpose of this task is to demonstrate the functionality of airflow, the 
 
 <b>data_preprocessing.py</b> is a script to download and preproccess the mnist data from the website.<br>
 <b>train.py</b> is a classical CNN model for solving the mnist image classification problem.<br>
-<b>scheduler.py</b> is a DAG put in the airflow DAG folder
+<b>scheduler.py</b> is a DAG put in the airflow DAG folder.
 
 ## Demonstration details
 
