@@ -12,3 +12,5 @@ Due to the confidentiality of the datasets, I cannot reproduce the complete work
 <b>classification_with_API.ipynb</b> in late 2020. It demonstrates how to serve the model through http requests using flask. The model is stored at the backend of the website. Once a valid http request is posted, it can submit the data to the model and respond the model prediction result to the frontend.
 
 <b>airflow_cnn</b> folder focus more on model deployment and is done in mid 2022. It contains a set of codes on demonstrating how to use apache airflow to schedule inter-dependent machine learning jobs to automate data preprocessing pipeline and model retrain
+
+<b>tfp_nn</b> uses the <i>tensorflow probability</i> extension to build probablistic models. By imposing a proper assumption utilize the technique in bayesian statistics, one can regularize the model parameters to aviod overfitting. This may provide another perspective to deal with shift of distribution between the training and testing dataset
